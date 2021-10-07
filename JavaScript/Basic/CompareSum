@@ -1,0 +1,30 @@
+function sum(from, to) {
+  let sum1 = 0;
+  for (let i = from; i <= to; i++) {
+    sum1 += i;
+  }
+  return sum1;
+}
+
+function compareSums(firstFrom, firstTo, secondFrom, secondTo) {
+  let sumNew1 = 0;
+  let sumNew2 = 0;
+  for (let i = firstFrom; i <= firstTo; i++) {
+    sumNew1 += i;
+  }
+  for (let i = secondFrom; i <= secondTo; i++) {
+    sumNew2 += i;
+  }
+  return sumNew1 > sumNew2;
+}
+// examples
+console.log(sum(5, 10)); // ===> 45
+console.log(sum(11, 11)); // ===> 11
+console.log(sum(11, 12)); // ===> 11
+console.log(sum(1, 11)); // ===> 11
+console.log(sum(11, 18)); // ===> 11
+console.log(sum(22, 29)); // ===> 11
+
+console.log(compareSums(5, 10, 5, 10)); // ===> false
+console.log(compareSums(5, 15, 3, 5)); // ===> true
+console.log(compareSums(-2, 5, 5, 9)); // ===> false

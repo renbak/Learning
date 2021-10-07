@@ -5,4 +5,5 @@ while (sumDif <= n) {
   sum += sumDif;
   sumDif += 1;
 }
+
 console.log(sum);

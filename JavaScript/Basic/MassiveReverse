@@ -1,0 +1,20 @@
+'use strict';
+
+/**
+ * @param {number[]} arr
+ * @return {number[]}
+ */
+function reverseArray(arr) {
+  console.log(arr);
+  let num = 0;
+  let arrNew = arr.slice();
+  for (let i = 0; i < arrNew.length; i++) {
+    let el = arrNew.reverse();
+    return el;
+  }
+}
+
+// examples
+console.log(reverseArray([11, 4, 8, 3])); // ==> [3, 8, 4, 11]
+console.log(reverseArray([])); // ==> []
+console.log(reverseArray([100, 50])); // ==> [50, 100]

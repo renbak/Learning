@@ -1,0 +1,11 @@
+function sendEmail(userName) {
+  console.log('Gromcode party invitation was sent to ' + userName + '!');
+}
+const userName = ['Ivan', 'Borya', 'Petya', 'Nadya', 'Kozulya', 'Kakashka'];
+function sendEmailList(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    const el = arr[i];
+    sendEmail(el);
+  }
+}
+sendEmailList(userName);

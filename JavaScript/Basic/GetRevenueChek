@@ -1,0 +1,24 @@
+function getRevenue(sales) {
+  let income = 0;
+  for (let i = 0; i < sales.length; i++) {
+    const el = sales[i];
+    income += el;
+  }
+  return income;
+}
+function checkRevenue(sales, plannedRevenue) {
+  let income = 0;
+  for (let i = 0; i < sales.length; i++) {
+    const el = sales[i];
+    income += el;
+  }
+  if (income >= plannedRevenue) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+// examples
+console.log(getRevenue([25, 40, 10, 58])); // returns ==> 133
+console.log(checkRevenue([25, 40, 10, 558], 150)); // returns ==> true

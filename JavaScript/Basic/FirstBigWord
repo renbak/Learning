@@ -1,0 +1,24 @@
+/**
+ * @param {string} str
+ * @return {string}
+ */
+
+function capitalize(str) {
+  for (let i = 0; i < str.length; i++) {
+    let firstWord = str[0].toUpperCase();
+    let otherWord = str.slice(1);
+    return (firstWord += otherWord);
+  }
+
+  //
+  //
+  //let allWord = (firstWord += otherWord);
+
+  // console.log(allWord);
+  //}
+}
+
+// examples
+console.log(capitalize('cake')); // ==> Cake
+console.log(capitalize('Monday')); // ==> Monday
+console.log(capitalize('23d')); // ==> Hello, it is me

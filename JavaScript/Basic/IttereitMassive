@@ -1,0 +1,17 @@
+
+const students = ['Vanya', 'Petya', 12, 1];
+function printArray(arr) {
+  for (let i = 0; i < arr.length; i += 1) {
+    const el = arr[i];
+    console.log(el);
+  }
+}
+
+
+function printArrayForOf(arr) {
+  for (let el of arr) {
+    console.log(el);
+  }
+}
+printArray(students);
+printArrayForOf(students);

@@ -1,0 +1,16 @@
+function getMax(first, second, third) {
+  if (first >= second && first >= third) { //больше либо равно
+    return first;
+  }
+  if (second >= first && second >= third) {
+    return second;
+  } else {
+    return third;
+  }
+}
+
+// examples
+console.log(getMax(10, 20, 30)); // ===> 30
+console.log(getMax(100, 20, 30)); // ===> 100
+console.log(getMax(0, 0, 0)); // ===> 0
+console.log(getMax(99, 99, 0));

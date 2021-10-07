@@ -1,0 +1,13 @@
+/**
+ * @param {number} num
+ * @return {void}
+ */
+function sumOfMillions() {
+  let sum = 0;
+  for (let index = 0; index <= 10000000; index++) {
+    sum += index;
+  }
+  return sum;
+}
+
+console.log(sumOfMillions());

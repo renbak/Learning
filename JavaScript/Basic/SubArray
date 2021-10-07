@@ -1,0 +1,20 @@
+'use strict';
+
+/**
+ * @param {array} arr
+ * @param {number} numberOfElements
+ * @return {array}
+ */
+const getSubArray = (arr, numberOfElements) => {
+  let a = 0;
+  for (let i of arr) {
+    let newSubArray = arr.slice(0, numberOfElements);
+    a = newSubArray;
+  }
+  return a;
+};
+
+// examples
+console.log(getSubArray([11, 4, 8, 3], 2)); // ==> [11, 4]
+console.log(getSubArray([1, 2, 3, 4, 5], 3)); // ==> [1, 2, 3]
+console.log(getSubArray(['some string', 'hello', 'I am happy'], 1)); // ==> ['some string']

@@ -1,0 +1,5 @@
+const getMessage = (userName, email, tasksCount) => {
+  const message = `Hello again, ${userName}. Your email is ${email}. You have ${tasksCount} tasks for today `;
+  return message;
+};
+console.log(getMessage('Ivan', 'ivan@groncode.ua', 12));
