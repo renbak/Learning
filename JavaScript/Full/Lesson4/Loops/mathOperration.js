@@ -12,5 +12,3 @@ for (let i = start; i <= end; i++) {
     result *= i;
   }
 }
-
-
