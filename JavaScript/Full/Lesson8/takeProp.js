@@ -5,14 +5,18 @@
  * Чтобы eslint не ругался на эту ошибку, для этой задачи он отключен аннотацией eslint-disable
  * */
 
-const getAdults = (obj) => {
-  const adultPeople = {};
-  for (const name in obj) {
-    if (obj[name] >= 18) adultPeople[name] = obj[name];
-  }
-  return adultPeople;
+const pickProps = (obj, props) => {
+  const objMas = {};
+  props.forEach((el) => {
+    for (const key in obj) {
+      if (el === key) {
+        objMas[key] = obj[key];
+      }
+    }
+  });
+  return objMas;
 };
 
 // examples
-console.log(getAdults({ 'John Doe': 19, Tom: 17, Bob: 18 })); // ==> { 'John Doe': 19, Bob: 18 }
-console.log(getAdults({ Ann: 56, Andrey: 7 })); // ==> { Ann: 56 }
+console.log(pickProps({ a: 1, b: 2, c: 3 }, ['a', 'c'])); // ==> { a: 1, c: 3 }
+console.log(pickProps({ a: 1, b: 2, c: 3 }, ['a', 'hex'])); // ==> { a: 1, c: 3 }
