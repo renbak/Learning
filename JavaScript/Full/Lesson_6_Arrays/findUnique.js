@@ -3,7 +3,7 @@ function uniqueCount(array) {
   if (!Array.isArray(array)) {
     return null;
   }
-  let newArr = [...new Set(array)]; // убираем дубликаты и приводим к массиву методом (...)
+  const newArr = [...new Set(array)]; // убираем дубликаты и приводим к массиву методом (...)
   for (let i = 0; i < newArr.length; i++) {
     //..проходимся по новому массиву и плюсуем на каждой итерации к переменной а по единице
     a++;
