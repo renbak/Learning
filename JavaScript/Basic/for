@@ -5,3 +5,4 @@ function printNumbers(num) {
 }
 printNumbers(12);
 printNumbers(53);
+printNumbers(14);

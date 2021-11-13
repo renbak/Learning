@@ -24,7 +24,7 @@ isLetter('W'); // ==> true
 isLetter('@'); // ==> false
 isLetter('1'); // ==> false
 
-console.log(isValidWord('hello')); // ==> true
+console.log(isValidWord('hello')); // ==>  true
 console.log(isValidWord('Hello')); // ==> true
 console.log(isValidWord('Test@')); // ==> false
 console.log(isValidWord('someName1')); // ==> false

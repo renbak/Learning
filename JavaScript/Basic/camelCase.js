@@ -6,7 +6,7 @@ function camelCase(str) {
     b = str[i].substring(0, 1).toUpperCase();
     let c = str[i].substring(1, str[i].length);
     d += b += c;
-    //console.log(d);
+    // console.log(d);
   }
   return d.slice(0, 1).toLowerCase() + d.slice(1);
 }

@@ -9,3 +9,4 @@ function sendEmailList(arr) {
   }
 }
 sendEmailList(userName);
+

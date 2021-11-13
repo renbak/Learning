@@ -13,7 +13,7 @@ function cloneArr(arr) {
   }
 }
 
-// put your code here
+// put your code her e
 
 // examples
 console.log(cloneArr([11, 4, 8, 3])); // returns ==> [11, 4, 8, 3]

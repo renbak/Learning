@@ -25,6 +25,6 @@ console.log(sum(1, 11)); // ===> 11
 console.log(sum(11, 18)); // ===> 11
 console.log(sum(22, 29)); // ===> 11
 
-console.log(compareSums(5, 10, 5, 10)); // ===> false
+console.log(compareSums(5, 10, 5, 10)); // ===>  false
 console.log(compareSums(5, 15, 3, 5)); // ===> true
 console.log(compareSums(-2, 5, 5, 9)); // ===> false

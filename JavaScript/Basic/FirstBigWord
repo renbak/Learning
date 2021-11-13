@@ -19,6 +19,6 @@ function capitalize(str) {
 }
 
 // examples
-console.log(capitalize('cake')); // ==> Cake
-console.log(capitalize('Monday')); // ==> Monday
+console.log(capitalize('cake')); // ==>  Cake
+console.log(capitalize('Monday')); // ==>  Monday
 console.log(capitalize('23d')); // ==> Hello, it is me

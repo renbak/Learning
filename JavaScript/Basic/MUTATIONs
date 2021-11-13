@@ -13,6 +13,6 @@ function addPoints(points, homeTeam, awayTeam, result) {
 }
 
 // examples
-console.log(addPoints([8, 6, 4, 1], 1, 2, 'win')); // returns ==> [11, 6, 4, 1]
+console.log(addPoints([8, 6, 4, 1], 1, 2, 'win')); //  returns ==> [11, 6, 4, 1]
 console.log(addPoints([18, 15, 8, 2, 1, 0], 1, 4, 'lose')); // returns ==> [18, 15, 8, 5, 1, 0]
 console.log(addPoints([18, 15, 8, 2, 1, 0], 5, 6, 'draw')); // returns ==> [18, 15, 8, 2, 2, 1]

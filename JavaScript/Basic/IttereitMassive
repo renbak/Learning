@@ -1,3 +1,4 @@
+'use strict';
 
 const students = ['Vanya', 'Petya', 12, 1];
 function printArray(arr) {

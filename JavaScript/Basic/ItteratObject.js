@@ -1,6 +1,6 @@
 'use strict';
 
-// put your code he
+// put   your code he
 const product = {
   id: 12345,
   name: 'Laptop SONY',

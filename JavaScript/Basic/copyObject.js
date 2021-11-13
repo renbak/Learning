@@ -1,6 +1,6 @@
 'use strict';
 
-/**
+/* *
  * @param {object} obj
  * @return {object}
  */
