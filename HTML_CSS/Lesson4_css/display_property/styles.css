@@ -1,0 +1,10 @@
+.div_display {
+  display: inline-block;
+}
+
+.prop {
+  display: table;
+  width: 200px;
+  height: 100px;
+  background-color: yellow;
+}
