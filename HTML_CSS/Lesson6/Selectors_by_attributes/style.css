@@ -5,7 +5,7 @@ li {
   border: 2px solid black;
 }
 a[href^='broken'] {
-  border: 2px solid black;
+  border: 2px solid red;
 }
 a[href$='.com'] {
   margin-left: 50px;
@@ -16,6 +16,6 @@ a[lang*='en'] {
 a[href*='www'] {
   color: green;
 }
-a[title~='popular'] {
+a[title*='popular'] {
   font-size: 24px;
 }
