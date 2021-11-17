@@ -1,7 +1,8 @@
 [target='_blank'] {
   color: green;
 }
-li {
+ol,
+ul {
   background-color: yellow;
 }
 footer,
@@ -20,7 +21,6 @@ article.new {
 li.new {
   background-color: red;
 }
-.new,
-posted-today {
+.new.posted-today {
   background-color: pink;
 }
