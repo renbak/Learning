@@ -1,10 +1,13 @@
 .super-important.highlighted {
   background-color: red;
 }
-.highlighted,
-company-data {
+.highlighted {
   color: yellow;
 }
+.company-data {
+  color: yellow;
+}
+
 li.user-data {
   font-size: 24px;
 }
