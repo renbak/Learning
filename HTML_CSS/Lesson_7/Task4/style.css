@@ -9,7 +9,7 @@ label {
   font-size: 100px;
 }
 h1:hover {
-  background-color: blue;
+  color: blue;
 }
 a:visited {
   color: gray;
