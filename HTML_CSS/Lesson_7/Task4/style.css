@@ -8,7 +8,7 @@ label {
   color: green;
   font-size: 100px;
 }
-h1::selection {
+h1:active {
   background-color: blue;
 }
 a:visited {
