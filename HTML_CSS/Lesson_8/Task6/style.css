@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+div {
+  border: 2px solid black;
+  margin: 50px;
+  padding: 25px;
+}
+.a {
+  background-color: blue;
+}
+.b {
+  background-color: yellow;
+}
+.c {
+  background-color: green;
+}
+.d {
+  background-color: pink;
+}
