@@ -4,7 +4,6 @@
 div {
   border: 2px solid black;
   margin: 50px;
-  padding: 25px;
 }
 .a {
   background-color: blue;
@@ -17,4 +16,5 @@ div {
 }
 .d {
   background-color: pink;
+  padding: 50px;
 }
