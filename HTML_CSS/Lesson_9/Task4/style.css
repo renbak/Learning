@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+.red {
+  background-color: red;
+  height: 200px;
+  float: left;
+  width: 20%;
+}
+.green {
+  background-color: green;
+  height: 200px;
+  float: left;
+  width: 20%;
+}
+.blue {
+  background-color: blue;
+  height: 200px;
+  float: left;
+  width: 20%;
+}
+.yellow {
+  background-color: yellow;
+  height: 200px;
+  float: left;
+  width: 20%;
+}
+.black {
+  background-color: black;
+  height: 200px;
+  float: left;
+  width: 20%;
+}
