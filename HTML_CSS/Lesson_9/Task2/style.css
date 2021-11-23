@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+.square {
+  width: 100px;
+  height: 100px;
+}
+
+section {
+  background: aquamarine;
+  padding: 16px;
+}
+
+footer {
+  height: 30px;
+  border: 2px solid black;
+  clear: both;
+}
+.green {
+  background-color: green;
+  border: 2px solid green;
+  float: left;
+}
+.red {
+  background-color: red;
+  border: 2px solid red;
+  float: right;
+}
+.container {
+  float: left;
+  width: 50%;
+}
