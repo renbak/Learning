@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+.header {
+  height: 40px;
+}
+.nav-list {
+  background-color: darkturquoise;
+  height: 40px;
+}
+.nav-item {
+  color: white;
+  float: left;
+  margin-left: 16px;
+  line-height: 2.5;
+}
+.content {
+  height: 5000px;
+  background-color: beige;
+}
+.head {
+  height: 200px;
+  width: 200px;
+  background-color: aquamarine;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  bottom: 50%;
+  top: 50%;
+}
+.ear_left {
+  height: 60px;
+  width: 40px;
+  background-color: brown;
+  position: relative;
+  bottom: 30%;
+  right: 100%;
+  float: right;
+}
+.ear_right {
+  height: 60px;
+  width: 40px;
+  background-color: brown;
+  position: relative;
+  bottom: 30%;
+  left: 100%;
+  float: left;
+}
+.eye_right {
+  width: 30px;
+  height: 30px;
+  background-color: grey;
+  border-radius: 50%;
+  float: left;
+  position: relative;
+  top: 40%;
+  bottom: 60%;
+}
+.eye_left {
+  width: 30px;
+  height: 30px;
+  background-color: grey;
+  border-radius: 50%;
+  float: right;
+  position: relative;
+  top: 40%;
+  bottom: 60%;
+}
