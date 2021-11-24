@@ -1,0 +1,28 @@
+html {
+  font-size: 24px;
+}
+
+div {
+  margin: 16px;
+  border: 1px solid burlywood;
+}
+div[class='horizontal'] {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+div[class='vertical'] {
+  height: 200px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.horizontal span {
+  background-color: aqua;
+}
+.vertical > span {
+  background-color: coral;
+}
