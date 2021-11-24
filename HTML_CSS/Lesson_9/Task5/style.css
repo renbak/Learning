@@ -24,10 +24,8 @@
   width: 200px;
   background-color: aquamarine;
   position: absolute;
-  left: 50%;
-  right: 50%;
-  bottom: 50%;
-  top: 50%;
+  left: calc(50%);
+  top: calc(50%);
 }
 .ear_left {
   height: 60px;
