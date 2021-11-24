@@ -2,10 +2,7 @@
   box-sizing: content-box;
   margin: 0%;
 }
-.header {
-  background-color: darkturquoise;
-  height: 40px;
-}
+
 .navigation {
   height: 40px;
 }
@@ -24,9 +21,16 @@
   height: 200px;
   width: 200px;
   background-color: aquamarine;
-  position: sticky;
+  position: absolute;
   left: calc(50% - (200px / 2));
   top: calc(50% - (200px / 2));
+}
+.header {
+  z-index: 1;
+  position: sticky;
+  background-color: darkturquoise;
+  height: 40px;
+  top: 0px;
 }
 .ear_left {
   height: 60px;
