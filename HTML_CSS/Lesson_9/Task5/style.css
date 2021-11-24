@@ -2,13 +2,14 @@
   box-sizing: border-box;
 }
 .header {
-  height: 40px;
-}
-.nav-list {
   background-color: darkturquoise;
   height: 40px;
 }
+.navigation {
+  height: 40px;
+}
 .nav-item {
+  display: inline;
   color: white;
   float: left;
   margin-left: 16px;
