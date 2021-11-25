@@ -4,6 +4,7 @@
   height: 100px;
   width: 100px;
   flex-shrink: 0;
+  flex-grow: 1;
 }
 .container {
   display: flex;
