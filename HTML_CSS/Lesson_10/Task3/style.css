@@ -15,7 +15,8 @@
   list-style-type: none;
 }
 .navigation-item {
-  margin-right: 10px;
+  margin: 9px;
+  margin-left: 0px;
 }
 .footer-item {
   margin: auto;
