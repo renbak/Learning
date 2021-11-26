@@ -19,7 +19,7 @@
   list-style-type: none;
 }
 .navigation-item {
-  margin: 16px;
+  margin-left: 16px;
 }
 .footer-item {
   margin: auto;
@@ -56,7 +56,7 @@
 }
 .abc {
   padding: 0;
-  margin: 0px;
+
   display: flex;
   flex-direction: column;
 }
