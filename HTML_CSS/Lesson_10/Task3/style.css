@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .header {
   height: 40px;
   background-color: yellow;
@@ -9,14 +12,14 @@
   height: 40px;
   display: flex;
 }
+
 .navigation {
-  margin: 0;
+  padding: 0;
   display: flex;
   list-style-type: none;
 }
 .navigation-item {
-  margin: 9px;
-  margin-left: 0px;
+  margin: 16px;
 }
 .footer-item {
   margin: auto;
@@ -52,6 +55,7 @@
   margin-bottom: 16px;
 }
 .abc {
+  padding: 0;
   margin: 0px;
   display: flex;
   flex-direction: column;
