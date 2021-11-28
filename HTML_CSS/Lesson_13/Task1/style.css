@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+.mountains {
+  width: 300px;
+  height: 500px;
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/task1/nature.jpeg);
+  background-position: center;
+  font-size: 32px;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  padding: 32px;
+  background-size: cover;
+}
