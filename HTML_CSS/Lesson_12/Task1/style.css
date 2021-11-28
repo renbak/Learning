@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: Roboto, sans-serif;
+  margin: 32px;
+  font-size: 18px;
+}
+.header {
+  text-align: center;
+  word-spacing: 20px;
+  text-transform: uppercase;
+}
+p {
+  line-height: 28px;
+}
+.abbreviation {
+  font-weight: 900;
+  letter-spacing: 3px;
+  font-size: 24px;
+  opacity: 80%;
+  text-decoration: underline;
+}
+em {
+  color: grey;
+}
+a {
+  text-decoration: none;
+}
