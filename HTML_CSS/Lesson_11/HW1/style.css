@@ -3,7 +3,7 @@
 }
 .text {
   margin: 16px;
-  text-decoration: underline 1px dotted black;
+  /* text-decoration: underline 1px dotted black; */
   display: flex;
   flex-direction: column;
   position: relative;
