@@ -1,8 +1,10 @@
 .checkbox {
+  display: inline-block;
   position: relative;
   padding-left: 35px;
   font-size: 24px;
   margin: 16px;
+  margin-top: 16px;
 }
 input[type='checkbox'] {
   visibility: hidden;
