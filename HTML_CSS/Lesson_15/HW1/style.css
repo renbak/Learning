@@ -3,26 +3,30 @@
 }
 .image-container {
   display: flex;
+  position: relative;
+  justify-content: center;
 }
 .image {
-  position: relative;
-  margin: auto;
+  display: flex;
+  max-width: 100%;
 }
 .image-button {
+  display: flex;
   position: absolute;
   width: 200px;
   height: 50px;
-  top: calc(18% - 25px);
+  top: calc(50% - 25px);
   left: calc(50% - 100px);
   background-color: bisque;
   font-size: 12px;
   text-transform: uppercase;
   font-weight: 700;
-  padding: 16px;
+  align-items: center;
+  justify-content: center;
   opacity: 0.5;
   cursor: pointer;
 }
 
-.image-container:hover > .image-button {
+.image-button:hover {
   opacity: 1;
 }
