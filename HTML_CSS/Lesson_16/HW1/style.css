@@ -9,8 +9,8 @@ body {
   display: flex;
   position: absolute;
   background-color: aqua;
-  top: calc(50% - 90px);
-  left: calc(50% - 137px);
+  top: calc(50% - 183px);
+  left: calc(50% - 150px);
 }
 .login-form {
   font-size: 16px;
