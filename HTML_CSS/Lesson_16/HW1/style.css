@@ -17,12 +17,14 @@ body {
   font-family: monospace;
   width: 300px;
   padding: 16px;
+
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 .form-title {
-  position: relative;
+  display: flex;
+  justify-content: center;
+
   text-transform: uppercase;
-  text-align: center;
 }
 .form-input {
   display: flex;
