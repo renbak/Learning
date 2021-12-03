@@ -7,10 +7,10 @@ body {
 }
 .page {
   display: flex;
-  position: absolute;
+  position: relative;
   background-color: aqua;
-  top: calc(50% - 173px);
-  left: calc(50% - 150px);
+  margin-top: calc(50% - 173px);
+  margin-left: calc(50% - 150px);
 }
 .login-form {
   font-size: 16px;
