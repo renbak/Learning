@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+.form-main {
+  margin: 32px;
+}
+.input-items {
+  margin: 8px;
+}
