@@ -48,12 +48,7 @@
         <input type="month" name="startLearning" value="2020-01" />
       </div>
       <div class="input-items">
-        <input
-          class="input-items"
-          type="number"
-          name="favouriteNumber"
-          value="17"
-        />
+        <input type="number" name="favouriteNumber" value="17" />
       </div>
       <div class="input-items">
         <textarea
@@ -67,9 +62,12 @@
         <input type="password" name="password" value="secret" />
       </div>
       <div class="language">
-        <input type="radio" name="language" value="html" />HTML
-        <input type="radio" name="language" value="css" checked />CSS
-        <input type="radio" name="language" value="javascript" />JavaScript
+        <input type="radio" name="language" id="html-id" value="html" />
+        <label for="html-id">HTML</label>
+        <input type="radio" name="language" id="css-id" value="css" checked />
+        <label for="css-id">CSS</label>
+        <input type="radio" name="language" id="js-id" value="javascript" />
+        <label for="js-id">JavaScript</label>
       </div>
       <div class="input-items">
         <input type="range" name="learningProgress" value="30" />
