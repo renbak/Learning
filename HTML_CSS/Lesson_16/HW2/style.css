@@ -1,9 +1,14 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
+
 .form-main {
   margin: 32px;
 }
 .input-items {
+  margin: 8px;
+}
+.language {
   margin: 8px;
 }
