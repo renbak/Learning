@@ -20,7 +20,7 @@ div {
   overflow-x: auto;
 }
 tr {
-  line-height: 40px;
+  height: 40px;
 }
 th {
   background-color: aqua;
