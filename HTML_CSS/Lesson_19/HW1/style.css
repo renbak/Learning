@@ -1,3 +1,6 @@
+.container {
+  display: flex;
+}
 .spinner {
   display: flex;
   position: absolute;
