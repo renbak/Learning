@@ -10,6 +10,7 @@
   text-transform: uppercase;
   animation: blinking 2s;
   animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 .rect {
@@ -21,7 +22,6 @@
   background-color: black;
   border-radius: 2px;
   animation: moving 2s, blinking 2s;
-
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
