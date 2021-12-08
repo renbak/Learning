@@ -2,10 +2,9 @@
   box-sizing: border-box;
 }
 .container {
-  display: flex;
+  display: flexbox;
 }
 .spinner {
-  display: flex;
   position: absolute;
   top: 50vh;
   left: 50vw;
@@ -20,9 +19,7 @@
 }
 
 .rect {
-  display: flex;
   position: absolute;
-  bottom: -3px;
   width: 10px;
   height: 4px;
   background-color: black;
