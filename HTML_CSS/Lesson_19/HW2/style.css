@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+.block {
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  width: 250px;
+  height: 100px;
+  background-color: coral;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 100px;
+  animation: top 2s both ease;
+}
+
+@keyframes top {
+  from {
+    margin-top: -100px;
+  }
+  to {
+    margin-top: calc(50vh - 50px);
+  }
+}
