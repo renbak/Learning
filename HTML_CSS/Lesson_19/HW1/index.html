@@ -15,12 +15,10 @@
         box-sizing: border-box;
       }
       .container {
-        margin: auto;
+        display: flex;
+        height: 100vh;
       }
       .spinner {
-        position: absolute;
-        top: 50vh;
-        left: 50vw;
         margin: auto;
       }
 
@@ -30,18 +28,16 @@
         text-transform: uppercase;
         animation: blinking 2s;
         animation-iteration-count: infinite;
-        animation-direction: alternate;
       }
 
       .rect {
-        position: absolute;
+        position: relative;
         width: 10px;
         height: 4px;
         background-color: black;
         border-radius: 2px;
         animation: moving 2s, blinking 2s;
         animation-iteration-count: infinite;
-        animation-direction: alternate;
       }
       @keyframes moving {
         from {
