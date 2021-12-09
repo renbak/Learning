@@ -15,8 +15,7 @@
       box-sizing: border-box;
     }
     .block {
-      display: flex;
-      position: static;
+      margin: auto;
       font-family: Arial, Helvetica, sans-serif;
       font-size: 14px;
       font-weight: 700;
@@ -28,7 +27,16 @@
       border-radius: 10px;
       text-align: center;
       line-height: 100px;
-      left: calc(50vw - 125px);
+      animation: top 2s;
+      animation-fill-mode: both;
+    }
+    @keyframes top {
+      from {
+        margin-top: -100px;
+      }
+      to {
+        margin-top: calc(50vh - 50px);
+      }
     }
   </style>
   <body>
