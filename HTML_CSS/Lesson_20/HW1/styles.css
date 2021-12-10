@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  height: 100vh;
+}
+.spinner {
+  margin: auto;
+}
+.spinner-text {
+  font-family: monospace;
+  font-size: 16px;
+  text-transform: uppercase;
+  animation: blinking 2s infinite linear;
+}
+
+@keyframes blinking {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.circle {
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  border: 4px solid lightgrey;
+  border-radius: 50%;
+  border-left-color: lightgrey;
+  border-bottom-color: lightgrey;
+  border-right-color: lightgrey;
+  border-top-color: black;
+  margin-bottom: 8px;
+  animation: spin 2s linear infinite;
+}
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
