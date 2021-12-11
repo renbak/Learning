@@ -3,6 +3,7 @@
 }
 .container {
   display: flex;
+  height: 100vh;
 }
 .spinner {
   margin: auto;
@@ -12,19 +13,18 @@
   font-family: monospace;
   font-size: 16px;
   text-transform: uppercase;
-  animation: blinking 2s;
+  animation: blinking 2s linear;
   animation-iteration-count: infinite;
-  animation-direction: alternate;
 }
 
 .rect {
+  position: relative;
   width: 10px;
   height: 4px;
   background-color: black;
   border-radius: 2px;
   animation: moving 2s, blinking 2s;
   animation-iteration-count: infinite;
-  animation-direction: alternate;
 }
 @keyframes moving {
   from {
