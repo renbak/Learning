@@ -61,7 +61,8 @@ h1 {
   list-style-type: none;
 }
 .nav-list-link {
-  margin-left: 0.5em;
+  margin: 0.5em;
+
   font-style: normal;
   line-height: 2em;
   color: white;
@@ -74,4 +75,5 @@ h1 {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  color: white;
 }
