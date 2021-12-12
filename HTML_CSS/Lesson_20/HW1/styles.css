@@ -8,6 +8,10 @@
 }
 .spinner {
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .spinner-text {
   font-family: monospace;
