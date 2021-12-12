@@ -61,16 +61,15 @@ h1 {
   list-style-type: none;
 }
 .nav-list-link {
-  margin: 0.5em;
-
   font-style: normal;
   line-height: 2em;
   color: white;
   text-decoration: none;
 }
 .nav-list-item {
+  padding-right: 0.5em;
+  padding-left: 0.5em;
   background-color: #808080;
-  width: 100%;
   margin-bottom: 0.5em;
   overflow: hidden;
   white-space: nowrap;
