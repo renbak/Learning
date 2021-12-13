@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 .nav {
   background-color: #ff7f50;
   min-height: 200px;
@@ -30,12 +31,22 @@ span {
 @media screen and (min-width: 600px) {
   .products {
     display: flex;
-    flex-grow: 2;
+  }
+  .nav {
+    width: 50%;
+  }
+  .list {
+    width: 50%;
   }
 }
 @media screen and (min-width: 900px) {
   .content {
     display: flex;
-    flex-grow: 3;
+  }
+  .products {
+    width: 66.6666666666%;
+  }
+  .news {
+    width: 33.33%;
   }
 }
