@@ -25,17 +25,18 @@ html {
   font-size: 2em;
 }
 .nav-list {
+  margin-top: 0.5em;
   padding: 0;
   list-style-type: none;
 }
 .navigation {
   width: 20%;
-  /* padding: 0.5em; */
+  padding: 0.5em;
 }
 .nav-list-item {
   background-color: #808080;
   height: 2em;
-  margin: 0.5em;
+  margin-bottom: 0.5em;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
