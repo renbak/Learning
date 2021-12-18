@@ -1,0 +1,64 @@
+@import 'layout.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+span {
+  text-transform: lowercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px;
+  background-color: #faebd7;
+  border-radius: 4px;
+  margin: auto;
+}
+.nav {
+  background-color: #ff7f50;
+  min-height: 200px;
+  display: flex;
+  flex-grow: 1;
+}
+.list {
+  background-color: #006400;
+  min-height: 200px;
+  display: flex;
+  flex-grow: 1;
+}
+.news {
+  background-color: #0ff;
+  min-height: 200px;
+  display: flex;
+  flex-grow: 1;
+}
+
+.products {
+  @include for-phone {
+    display: flex;
+  }
+}
+.nav {
+  @include for-phone {
+    width: 50%;
+  }
+}
+.list {
+  @include for-phone {
+    width: 50%;
+  }
+}
+
+.content {
+  @include for-tablet {
+    display: flex;
+  }
+}
+.products {
+  @include for-tablet {
+    width: 66.6666666666%;
+  }
+}
+.news {
+  @include for-tablet {
+    width: 33.33%;
+  }
+}

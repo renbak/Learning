@@ -1,0 +1,14 @@
+$sm: 600px;
+$md: 900px;
+
+@mixin for-phone {
+  @media screen and (min-width: $sm) {
+    @content;
+  }
+}
+
+@mixin for-tablet {
+  @media screen and (min-width: $md) {
+    @content;
+  }
+}
