@@ -1,0 +1,52 @@
+@import 'header.scss';
+
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  height: 100vh;
+}
+
+.menu__item {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  padding-left: 8px;
+  padding-right: 8px;
+
+  color: white;
+
+  &_active {
+    color: yellow;
+    flex-direction: column;
+    line-height: 3em;
+  }
+}
+
+.menu__item:hover {
+  background-color: #9acd32;
+}
+
+.submenu {
+  padding: 0;
+  background-color: #ff7f50;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  width: 120px;
+  z-index: 1;
+  list-style-type: none;
+  visibility: hidden;
+}
+.submenu__item {
+  padding: 8px;
+}
+.menu__item_active:hover {
+  .submenu {
+    visibility: visible;
+  }
+}
+.submenu__item:hover {
+  color: black;
+}
