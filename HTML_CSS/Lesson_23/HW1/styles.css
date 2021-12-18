@@ -31,6 +31,7 @@ html {
   cursor: pointer;
   color: white; }
   .menu__item_active {
+    position: relative;
     padding: 0;
     color: yellow;
     flex-direction: column;
@@ -40,6 +41,9 @@ html {
   background-color: #9acd32; }
 
 .submenu {
+  position: absolute;
+  top: 3em;
+  left: 8px;
   padding: 0;
   background-color: #ff7f50;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
@@ -50,7 +54,7 @@ html {
   visibility: hidden; }
 
 .submenu__item {
-  padding: 8px; }
+  padding-top: 8px; }
 
 .menu__item_active:hover .submenu {
   visibility: visible; }
