@@ -1,0 +1,24 @@
+.action-button {
+  height: 48px;
+  background-color: #3040c4;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 13px;
+  font-weight: 700;
+  border-radius: 2px;
+  border: none;
+}
+
+@media screen and (min-width: 321px) {
+  .action-button {
+    width: 160px;
+    height: 48px;
+    background-color: #3040c4;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 13px;
+    font-weight: 700;
+    border-radius: 2px;
+    border: none;
+  }
+}

@@ -1,0 +1,38 @@
+.about {
+  width: 100%;
+  padding: 46px 15px;
+  background: #f4f5f7;
+
+  @include for-large-up {
+    display: flex;
+    width: 100%;
+    padding: 77px 131px 76px 130px;
+    justify-content: space-between;
+    background: #f4f5f7;
+  }
+}
+
+.article {
+  @include for-large-up {
+    width: 555px;
+  }
+
+  &:last-child {
+    margin-top: 20px;
+    @include for-large-up {
+      margin-top: 0;
+    }
+  }
+  &__title {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 700;
+    margin: 0;
+  }
+  &__text {
+    font-size: 22px;
+    line-height: 32px;
+    margin: 0;
+    margin-top: 6px;
+  }
+}

@@ -1,0 +1,96 @@
+.features {
+  display: flex;
+  position: relative;
+  margin-bottom: 103px;
+}
+
+@media screen and (max-width: 320px) {
+  .features {
+    display: none;
+  }
+}
+
+.features__content {
+  width: 1140px;
+  margin: auto;
+  display: flex;
+}
+
+.features__column {
+  width: 462px;
+}
+
+.features__subtitle {
+  font-size: 22px;
+  line-height: 34px;
+  color: #009b4d;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.features__title {
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -0.5px;
+  color: #2b292d;
+  font-weight: 700;
+  width: 462px;
+  margin: 0;
+}
+
+.features__description {
+  font-size: 24px;
+  line-height: 34px;
+  color: #2b292d;
+  width: 461px;
+  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 42px;
+}
+
+.features__advantage-header {
+  display: flex;
+}
+
+.features__advantage-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: #3142c6;
+  margin: 0;
+  margin-left: 15px;
+}
+
+.features__advantage-description {
+  font-size: 18px;
+  line-height: 26px;
+  margin-top: 8px;
+  margin-bottom: 0;
+  border-bottom: 3px solid #3142c6;
+  padding-bottom: 20px;
+}
+
+.features__advantage-item {
+  border-bottom: 1px solid #2b292d26;
+  margin-top: 21px;
+  padding-bottom: 22px;
+  display: flex;
+}
+
+.features__advantage-item-text {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  margin-left: 15px;
+}
+
+.feratures__left-decoration {
+  height: 166px;
+  position: absolute;
+  top: 258px;
+}
+
+.features__banner {
+  position: absolute;
+  right: 0;
+}
