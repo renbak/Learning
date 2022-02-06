@@ -1,4 +1,8 @@
 .sass-cache
+<<<<<<< HEAD
 package-lock.json
 node_modules
 .vscode
+=======
+.eslintrc.js
+>>>>>>> 1c55da300f7c96c509adeea1e1883c597beb598a
