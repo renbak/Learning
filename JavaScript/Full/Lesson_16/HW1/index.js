@@ -11,5 +11,3 @@ export function createArrayOfFunctions(num) {
   }
   return arr;
 }
-
-console.log(createArrayOfFunctions(9)[5]());
